@@ -1,7 +1,21 @@
-name: cookbook-dev
+name: mpas-jedi-cookbook-dev
 channels:
   - conda-forge
 dependencies:
+  - python=3.11
+  - bokeh=3.7.0
   - jupyterlab
   - mystmd
   - jupyterlab-myst
+  - netCDF4
+  - scipy
+  - matplotlib
+  - cartopy
+  - plotly
+  - folium
+  - geopandas
+  - xarray
+  - seaborn
+  - uxarray
+  - basemap
+  - s3fs

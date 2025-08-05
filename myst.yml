@@ -3,11 +3,16 @@ version: 1
 extends:
   - https://raw.githubusercontent.com/projectpythia/pythia-config/main/pythia.yml
 project:
-  title: Project Pythia Cookbook Template
-  github: https://github.com/projectpythia/cookbook-template
+  title: MPAS+JEDI cookbook
+  github: https://github.com/projectpythia/mpas-jedi-cookbook
   authors:
-    - name: The Project Pythia Community
-  copyright: '2024'
+    - name: Guoqing Ge
+    - name: Orhan.Eroglu
+    - name: Haidao Lin
+    - name: Stephen Asare
+    - name: Yan Pan
+    - name: Altug Karakurt
+  copyright: '2025'
   toc:
     - file: README.md
     - title: Preamble
@@ -15,7 +20,10 @@ project:
         - file: notebooks/how-to-cite.md
     - title: Introduction
       children:
-        - file: notebooks/notebook-template.ipynb
+        - file: notebooks/Introduction.ipynb
   jupyter:
       binder:
-        repo: projectpythia/cookbook-template
+        repo: projectpythia/mpas-jedi-cookbook
+  abbreviations:
+    MPAS: Model for Prediction Across Scales
+    JEDI: Joint Effort for Data Assimilation Integration
