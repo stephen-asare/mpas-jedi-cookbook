@@ -2,8 +2,6 @@ cff-version: 1.2.0
 message: "If you use this cookbook, please cite it as below."
 authors:
   # add additional entries for each author -- see https://github.com/citation-file-format/citation-file-format/blob/main/schema-guide.md
-  - family-names: Pan
-    given-names: Yan
   - family-names: Ge
     given-names: Guoqing
     orcid: https://orcid.org/0000-0002-9934-0608 #optional
@@ -13,6 +11,13 @@ authors:
     given-names: Orhan
     orcid: https://orcid.org/0000-0003-3099-8775
     affiliation: NSF National Center for Atmospheric Research
+ - family-names: Stephen
+    given-names: Asare
+    orcid: https://orcid.org/0000-0002-2438-5000 #optional
+    website: https://github.com/stephen-asare/ # optional
+    affiliation: Florida State University
+  - family-names: Pan
+    given-names: Yan
   - family-names: Karakurt
     given-names: Altug
     orcid: https://orcid.org/0000-0003-2097-4999
@@ -22,3 +27,4 @@ authors:
     website: "https://github.com/ProjectPythia/mpas-jedi-cookbook/graphs/contributors"
 title: "MPAS+JEDI Cookbook"
 abstract: "A sample cookbook description."
+
