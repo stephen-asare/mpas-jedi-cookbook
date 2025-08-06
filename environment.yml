@@ -3,20 +3,24 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - bokeh=3.7.0
-  - jupyterlab
-  - mystmd
-  - jupyterlab-myst
-  - netCDF4
-  - h5netcdf
-  - scipy
-  - matplotlib
+  - basemap
+  - bokeh
   - cartopy
-  - plotly
   - folium
   - geopandas
-  - xarray
-  - seaborn
-  - uxarray
-  - basemap
+  - h5netcdf
+  - jupyterlab
+  - jupyterlab-myst
+  - matplotlib
+  - mystmd
+  - netCDF4
+  - pip
+  - plotly
   - s3fs
+  - scipy
+  - seaborn
+  # - uxarray  # for now until releasing vertical cross-sections
+  - xarray
+  - vim
+pip:
+  - git+https://github.com/UXARRAY/uxarray@interpolate-cross-section  # remove when you revert uxarray above!
