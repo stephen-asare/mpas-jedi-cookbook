@@ -18,12 +18,19 @@ project:
     - title: Preamble
       children:
         - file: notebooks/how-to-cite.md
-    - title: MPAS - JEDI Overview
+    - title: Introduction
       children:
-        - file: notebooks/Introduction.ipynb
-    - title: MPAS - JEDI Analysis
+        - file: notebooks/overview-mpas.ipynb
+        - file: notebooks/overview-jedi.ipynb
+        - file: notebooks/overview-rrfsv2.ipynb
+    - title: Regional MPAS Analysis and Visualization
       children:
-        - file: notebooks/mpas-jedi.ipynb
+        - file: notebooks/mpas-basic.ipynb
+        - file: notebooks/mpas-advanced.ipynb
+    - title: JEDI Analysis and Visualization
+      children:
+        - file: notebooks/jedi-mpas.ipynb
+        - file: notebooks/jedi-obsSpace.ipynb
   jupyter:
       binder:
         repo: projectpythia/mpas-jedi-cookbook
