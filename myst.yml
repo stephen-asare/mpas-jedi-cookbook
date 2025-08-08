@@ -7,7 +7,7 @@ project:
   github: https://github.com/projectpythia/mpas-jedi-cookbook
   authors:
     - name: Guoqing Ge
-    - name: Orhan.Eroglu
+    - name: Orhan Eroglu
     - name: Haidao Lin
     - name: Stephen Asare
     - name: Yan Pan
@@ -23,11 +23,11 @@ project:
         - file: notebooks/overview-mpas.ipynb
         - file: notebooks/overview-jedi.ipynb
         - file: notebooks/overview-rrfsv2.ipynb
-    - title: Regional MPAS Analysis and Visualization
+    - title: MPAS (Regional) Analysis and Visualization
       children:
         - file: notebooks/mpas-basic.ipynb
         - file: notebooks/mpas-advanced.ipynb
-    - title: JEDI Analysis and Visualization
+    - title: MPAS-JEDI Analysis and Visualization
       children:
         - file: notebooks/jedi-mpas.ipynb
         - file: notebooks/jedi-obsSpace.ipynb

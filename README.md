@@ -6,15 +6,19 @@
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/cookbook-template/main?labpath=notebooks)
 [![DOI](https://zenodo.org/badge/475509405.svg)](https://zenodo.org/badge/latestdoi/475509405)
 
-This Project Pythia Cookbook focuses on analyzing, visualizing, and understanding output from the MPAS model and the JEDI system on an unstructured grid, as well as evaluating data assimilation performance in observation space.
+This Project Pythia Cookbook focuses on analyzing, visualizing, and interpreting MPAS model output on its native unstructured grid, as well as exploring MPAS-JEDI data assimilation results in both the model and observation spaces.   
+
+**Disclaimer:** This cookbook does not cover how to run MPAS or JEDI. Readers are encourage to visit [MPAS](https://mpas-dev.github.io/) or [JEDI](https://jointcenterforsatellitedataassimilation-jedi-docs.readthedocs-hosted.com/en/latest/) websites for more details
 
 ## Motivation
 
-[NOAA](https://www.noaa.gov/)'s next generation Rapid Refresh Forecast System (RRFS) is built on the MPAS (Model for Prediction Accross Scals) Model and the JEDI (Joint Effort for Data assimilation Integration) system. While both MPAS and JEDI are powerful tools, they can also be complex to use and interpret. This cookbook will demonstrate how to explore MPAS forecasts and JEDI analyses directly on the unstructed grid using the [UXarray](https://github.com/UXARRAY/uxarray) package. It also includes examples for examining JEDI analyses in observation space.
+[NOAA](https://www.noaa.gov/)'s next generation Rapid Refresh Forecast System ([RRFS](https://github.com/NOAA-EMC/rrfs-workflow/tree/rrfs-mpas-jedi)) is built on the MPAS (Model for Prediction Accross Scals) Model and the JEDI (Joint Effort for Data assimilation Integration) system. While both MPAS and JEDI are powerful tools, they can also be complex to use and interpret. This cookbook will demonstrate how to explore MPAS output and MPAS-JEDI analyses directly on the unstructed grid using the [UXarray](https://github.com/UXARRAY/uxarray) package. It also includes examples for examining JEDI analyses in observation space.
 
 ## Authors
 
-[Guoqing Ge](https://github.com/guoqing-noaa), [Orhan Eroglu](https://github.com/erogluorhan), etc.    
+- [Guoqing Ge](https://github.com/guoqing-noaa)
+- [Orhan Eroglu](https://github.com/erogluorhan)
+- etc.    
 _(Acknowledge primary content authors here)_
 
 ### Contributors
@@ -25,15 +29,19 @@ _(Acknowledge primary content authors here)_
 
 ## Structure
 
-(State one or more sections that will comprise the notebook. E.g., _This cookbook is broken up into two main sections - "Foundations" and "Example Workflows."_ Then, describe each section below.)
+This cookbook is broken into three sections: "Introduction", "MPAS (regional) Analysis and Visualization", "MPAS-JEDI Analysis and Visulization".
 
-### Section 1 ( Replace with the title of this section, e.g. "Foundations" )
+### Section 1 Introduction
 
-(Add content for this section, e.g., "The foundational content includes ... ")
+The introduction part will provide a quick overview about MPAS, JEDI and RRFS(v2).
 
-### Section 2 ( Replace with the title of this section, e.g. "Example workflows" )
+### Section 2 MPAS (regional) Analysis and Visualization
 
-(Add content for this section, e.g., "Example workflows include ... ")
+This part will demonstrate how to make basic and advanced MPAS analysis and visulazation using UXarray.
+
+### Section 3 MPAS-JEDI Analysis and Visualization
+
+This part will demonstrate how to explore MPAS-JEDI data assimilation results in both the model and observation spaces.
 
 ## Running the Notebooks
 
@@ -41,8 +49,7 @@ You can either run the notebook using [Binder](https://binder.projectpythia.org/
 
 ### Running on Binder
 
-The simplest way to interact with a Jupyter Notebook is through [Binder](https://binder.projectpythia.org/), which enables the execution of a [Jupyter Book](https://jupyterbook.org) in the cloud.   
-All you need to know is how to launch a Pythia Cookbooks chapter via Binder. Simply navigate your mouse to the top right corner of the book chapter you are viewing and click on the rocket ship icon, (see figure below), and be sure to select “launch Binder”. After a moment you should be presented with a notebook that you can interact with. I.e. you’ll be able to execute and even change the example programs. You’ll see that the code cells have no output at first, until you execute them by pressing {kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with a live Jupyter notebook are described in [Getting Started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
+The simplest way to interact with a Jupyter Notebook is through [Binder](https://binder.projectpythia.org/), which enables the execution of a [Jupyter Book](https://jupyterbook.org) in the cloud. All you need to know is how to launch a Pythia Cookbooks chapter via Binder. Simply navigate your mouse to the top right corner of the book chapter you are viewing and click on the rocket ship icon, (see figure below), and be sure to select “launch Binder”. After a moment you should be presented with a notebook that you can interact with. I.e. you’ll be able to execute and even change the example programs. You’ll see that the code cells have no output at first, until you execute them by pressing {kbd}`Shift`\+{kbd}`Enter`. Complete details on how to interact with a live Jupyter notebook are described in [Getting Started with Jupyter](https://foundations.projectpythia.org/foundations/getting-started-jupyter.html).
 
 Note, not all Cookbook chapters are executable. If you do not see the rocket ship icon, such as on this page, you are not viewing an executable book chapter.
 
